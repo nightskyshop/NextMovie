@@ -13,7 +13,6 @@ export default function Detail() {
                 `/api/movies/${id}`
             )
         ).json();
-        console.log(data);
         setMovie(data);
     };
 
